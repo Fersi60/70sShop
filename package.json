@@ -1,0 +1,42 @@
+{
+  "name": "E-commerceFinal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "data:import": "node backend/seederScript.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@elastic/react-search-ui": "^1.5.1",
+    "@elastic/search-ui-app-search-connector": "^1.5.1",
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/icons": "^4.11.2",
+    "bcryptjs": "^2.4.3",
+    "bootstrap": "^5.0.1",
+    "concurrently": "^6.0.1",
+    "datatables.net-dt": "^1.10.24",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "handlebars": "^4.7.7",
+    "http-proxy-middleware": "^1.3.1",
+    "jquery": "^3.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mdbreact": "^5.0.2",
+    "moment": "^2.29.1",
+    "mongoose": "^5.12.3",
+    "mui-datatables": "^3.7.7",
+    "nodemailer": "^6.6.0",
+    "nodemailer-mailgun-transport": "^2.1.3",
+    "nodemon": "^2.0.7",
+    "react-bootstrap": "^1.6.0",
+    "react-data-table-component": "^6.11.7",
+    "react-dom": "^17.0.2"
+  }
+}
