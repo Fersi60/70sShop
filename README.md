@@ -1,7 +1,7 @@
 # 70sShop
 This is My First Project ... 
 <br>
-DEMO : https://sheltered-retreat-68799.herokuapp.com <br>
+DEMO : https://sheltered-retreat-68799.herokuapp.com [Website Down Due heroku update] <br>
 <h3>ScreenShots </h3>
 <h4> Home Page : </h4>
 <img src="https://i.imgur.com/7V4MicP.png" alt="home_img">
